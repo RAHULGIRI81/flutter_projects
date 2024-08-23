@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/log_app/second.dart';
+import 'package:flutter_projecs/log_app/second.dart';
+
 
 class UI_3 extends StatefulWidget {
   const UI_3({super.key});

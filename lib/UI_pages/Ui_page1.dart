@@ -68,7 +68,7 @@ class _page1State extends State<page1> {
             ],
           ),
           SizedBox(
-            height: 50,
+            height: 30,
           ),
           Row(
             children: [
@@ -86,7 +86,7 @@ class _page1State extends State<page1> {
               ),
             ],
           ),
-          SizedBox(height: 10,),
+          SizedBox(height: 5,),
           Row(
             children: [
               Container(width: 410,
