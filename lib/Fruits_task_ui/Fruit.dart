@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_projecs/new_task_ui/Fruit_1.dart';
+
+import 'Fruit_1.dart';
+
 
 
 class Fruit_1 extends StatefulWidget {

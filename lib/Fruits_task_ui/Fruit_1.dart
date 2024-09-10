@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_projecs/new_task_ui/Fruit_2.dart';
-import 'package:flutter_projecs/new_task_ui/Fruit_nav.dart';
+
+import 'Fruit_2.dart';
+import 'Fruit_nav.dart';
 
 class fruit_2 extends StatefulWidget {
   const fruit_2({super.key});

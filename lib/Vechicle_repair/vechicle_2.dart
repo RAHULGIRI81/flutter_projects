@@ -13,19 +13,12 @@ class vechicle_2 extends StatelessWidget {
       length: 2, // Number of tabs
       child: Scaffold(
         backgroundColor: Colors.blue.shade50,
-        appBar: AppBar(
+        appBar: AppBar(automaticallyImplyLeading: false,
           toolbarHeight: 95,
           backgroundColor: Colors.blue[100],
-          title: InkWell(onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return vechicle_1();
-            },));
-
-          },
-            child: CircleAvatar(
-              backgroundImage: AssetImage("ASSETS/person.jpeg"),
-              radius: 25,
-            ),
+          title: CircleAvatar(
+            backgroundImage: AssetImage("ASSETS/person.jpeg"),
+            radius: 25,
           ),
           bottom: TabBar(
             padding: EdgeInsets.only(left: 30, right: 30),

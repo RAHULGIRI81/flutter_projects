@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'blog task/blog_page.dart';
+import '../blog task/blog_page.dart';
 
 class MyNavigationBar extends StatefulWidget {
   MyNavigationBar({Key? key}) : super(key: key);
