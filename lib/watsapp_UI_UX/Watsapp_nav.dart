@@ -1,14 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_projecs/Car_Rent_UI_Task/first_page.dart';
-import 'package:flutter_projecs/Car_Rent_UI_Task/forth_page.dart';
-import 'package:flutter_projecs/Car_Rent_UI_Task/second_page.dart';
-import 'package:flutter_projecs/Car_Rent_UI_Task/third_page.dart';
 import 'package:flutter_projecs/watsapp_UI_UX/WAtsapp_update.dart';
 import 'package:flutter_projecs/watsapp_UI_UX/Watapp_Communnities.dart';
 import 'package:flutter_projecs/watsapp_UI_UX/Watsapp_call.dart';
 import 'package:flutter_projecs/watsapp_UI_UX/Watsapp_chat.dart';
-import 'package:flutter_projecs/watsapp_UI_UX/watsapp_settings.dart';
+
 
 
 

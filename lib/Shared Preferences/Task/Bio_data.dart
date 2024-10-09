@@ -293,13 +293,12 @@ class _Bio_dataState extends State<Bio_data> {
                 ],
               ),
               SizedBox(
-                height: 10.h,
+                height: 10,
               ),
               InkWell(
                 onTap: () {
 
                   if (formkey.currentState!.validate() &&
-                      _selectedValue != 'null' &&
                       _selectedItem != 'Select') {
                     print('Detail Submited');
                     Add_Data_SP();
@@ -325,6 +324,7 @@ class _Bio_dataState extends State<Bio_data> {
                   )),
                 ),
               ),
+
               SizedBox(
                 height: 20,
               ),

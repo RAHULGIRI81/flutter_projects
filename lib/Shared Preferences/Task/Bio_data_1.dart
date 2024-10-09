@@ -33,6 +33,7 @@ class _Bio_data_1State extends State<Bio_data_1> {
       Gender = data.getString('Gender');
       Email = data.getString('Email');
       Qualification = data.getString('Qualification');
+
       print('//////////////////Get Successfully////////////////////');
     });
   }

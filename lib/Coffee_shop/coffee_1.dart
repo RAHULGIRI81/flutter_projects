@@ -19,8 +19,8 @@ class _coffee_1State extends State<coffee_1> {
       body: Column(
         children: [
           Container(
-              height: 600,
-              width: 600,
+              height: 200,
+              width: 200,
               child: Image(image: AssetImage("ASSETS/image 3.png"),fit: BoxFit.fill,
               )),
           Column(

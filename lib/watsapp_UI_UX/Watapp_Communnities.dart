@@ -1,7 +1,10 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_projecs/watsapp_UI_UX/watsapp_settings.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:image_picker/image_picker.dart';
 
 class watsapp_5 extends StatefulWidget {
   const watsapp_5({super.key});
@@ -11,6 +14,19 @@ class watsapp_5 extends StatefulWidget {
 }
 
 class _watsapp_5State extends State<watsapp_5> {
+  File? _image;
+
+  Future<void> _pickImage() async {
+    final pickedFile =
+    await ImagePicker().pickImage(source: ImageSource.camera);
+
+    if (pickedFile != null) {
+      setState(() {
+        _image = File(pickedFile.path);
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +41,7 @@ class _watsapp_5State extends State<watsapp_5> {
               size: 30,
             ),
             SizedBox(width: 20),
-            Icon(Icons.camera_alt_outlined, size: 30),
+            InkWell(onTap:_pickImage,child: Icon(Icons.camera_alt_outlined, size: 30)),
             SizedBox(width: 10),
             PopupMenuButton(
               itemBuilder: (BuildContext contesxt) {
